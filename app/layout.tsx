@@ -42,9 +42,24 @@ export default function RootLayout({
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           data-utmify-prevent-xcod-sck=""
           data-utmify-prevent-subids=""
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
-        <Script id="utmify-pixel" strategy="lazyOnload">
+        
+        {/* UTM Parameters for Facebook Ads */}
+        <Script id="utm-params" strategy="afterInteractive">
+          {`
+            (function() {
+              const params = new URLSearchParams(window.location.search);
+              if (!params.get("utm_source")) {
+                const utms = "utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}";
+                const separator = window.location.href.includes("?") ? "&" : "?";
+                window.history.replaceState({}, "", window.location.href + separator + utms);
+              }
+            })();
+          `}
+        </Script>
+        
+        <Script id="utmify-pixel" strategy="afterInteractive">
           {`
             window.pixelId = "69703f4b43dd1f1d5337dd3a";
             var a = document.createElement("script");
