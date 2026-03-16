@@ -941,7 +941,7 @@ const LandingPage = () => {
                   {/* Product Image */}
                   <div className="flex justify-center mb-4">
                     <Image
-                      src="https://www.universoamigurumi.shop/_next/image?url=https%3A%2F%2Fhebbkx1anhila5yf.public.blob.vercel-storage.com%2Fd55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png&w=640&q=75"
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png"
                       alt="Ebook Plantas e Flores Amigurumi - Plano Completo"
                       width={280}
                       height={200}
