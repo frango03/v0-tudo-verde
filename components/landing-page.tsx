@@ -60,28 +60,28 @@ const LandingPage = () => {
   }, [])
 
   const flores = [
-    "/images/flowers/anturio.jpg",
-    "/images/flowers/tulipas.jpg",
-    "/images/flowers/girassol.jpg",
-    "/images/flowers/gerbera.jpg",
-    "/images/flowers/rosa-deserto.jpg",
-    "/images/flowers/5.webp",
-    "/images/flowers/8.webp",
-    "/images/flowers/2.webp",
-    "/images/flowers/10.webp",
-    "/images/flowers/9.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-1f6Mc1p1CAiHa1ByI272m6kHvI9jir.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6455-l9c7zNUwKropQo7d7Yy3uMGolDBbxv.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-1f6Mc1p1CAiHa1ByI272m6kHvI9jir.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
   ]
   const suculentas = [
-    "/images/succulents/new-1.jpg",
-    "/images/succulents/new-2.jpg",
-    "/images/succulents/new-3.jpg",
-    "/images/succulents/new-4.jpg",
-    "/images/succulents/new-5.jpg",
-    "/images/succulents/new-6.jpg",
-    "/images/succulents/14.webp",
-    "/images/succulents/16.webp",
-    "/images/succulents/15.webp",
-    "/images/succulents/13.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6455-l9c7zNUwKropQo7d7Yy3uMGolDBbxv.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-1f6Mc1p1CAiHa1ByI272m6kHvI9jir.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6455-l9c7zNUwKropQo7d7Yy3uMGolDBbxv.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png",
   ]
 
   const scrollToPricing = () => {
@@ -382,7 +382,7 @@ const LandingPage = () => {
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-[1.03] hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-emerald-50/50 to-white">
                 <Image
-                  src="/images/bonus-anime-series.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-1f6Mc1p1CAiHa1ByI272m6kHvI9jir.png"
                   alt="Bônus Anime e Séries - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -401,7 +401,7 @@ const LandingPage = () => {
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-[1.03] hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-green-50/50 to-white">
                 <Image
-                  src="/images/bonus-pack-terror.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-1f6Mc1p1CAiHa1ByI272m6kHvI9jir.png"
                   alt="Bônus Pack Terror Halloween - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -597,10 +597,10 @@ const LandingPage = () => {
           {/* Bento Grid Layout */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
             {/* Large featured */}
-            <div className="col-span-2 row-span-2 relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/orquidea-amigurumi.jpg")}>
+            <div className="col-span-2 row-span-2 relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/orquidea-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png"
                   alt="Orquídea amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -614,10 +614,10 @@ const LandingPage = () => {
             </div>
 
             {/* Top right */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/cactus-amigurumi.jpg")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/cactus-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png"
                   alt="Cacto amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -630,10 +630,10 @@ const LandingPage = () => {
             </div>
 
             {/* Top right 2 */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/lavanda-amigurumi.jpg")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/lavanda-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp"
                   alt="Lavanda amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -646,10 +646,10 @@ const LandingPage = () => {
             </div>
 
             {/* Bottom right */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/margarita-amigurumi.jpg")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/margarita-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp"
                   alt="Margarida amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -662,10 +662,10 @@ const LandingPage = () => {
             </div>
 
             {/* Bottom right 2 */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/flowers/11.webp")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6455-l9c7zNUwKropQo7d7Yy3uMGolDBbxv.webp")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/flowers/11.webp"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6455-l9c7zNUwKropQo7d7Yy3uMGolDBbxv.webp"
                   alt="Flor amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -854,7 +854,7 @@ const LandingPage = () => {
 
                   {/* CTA Button */}
                   <a
-                    href="https://pay.hotmart.com/C102078250Q?checkoutMode=10&bid=1772242912043"
+                    href="https://go.pepperpay.com.br/iazwm"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold py-4 sm:py-5 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 text-center text-sm sm:text-base uppercase tracking-wide animate-pulse-soft"
@@ -941,17 +941,6 @@ const LandingPage = () => {
                 </div>
 
                 <div className="p-5 sm:p-6">
-                  {/* Product Image */}
-                  <div className="flex justify-center mb-4">
-                    <Image
-                      src="/images/hero-banner-es.png"
-                      alt="Ebook Plantas e Flores Amigurumi - Plano Completo"
-                      width={280}
-                      height={200}
-                      className="object-contain rounded-lg"
-                    />
-                  </div>
-
                   {/* Price */}
                   <div className="text-center mb-4">
                     <p className="text-gray-400 text-xs sm:text-sm uppercase tracking-wider mb-1">
@@ -978,7 +967,7 @@ const LandingPage = () => {
 
                   {/* CTA Button */}
                   <a
-                    href="https://pay.hotmart.com/I102081196A?checkoutMode=10&bid=1772237455516"
+                    href="https://go.pepperpay.com.br/1fbar"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold py-4 sm:py-5 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 text-center text-base sm:text-lg uppercase tracking-wide animate-pulse-soft"
@@ -1093,8 +1082,8 @@ const LandingPage = () => {
           <div className="relative w-72 lg:w-96 h-80 lg:h-96 mx-auto mb-10">
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-200 to-green-200 rounded-3xl transform rotate-3" />
             <Image
-              src="/images/expert-laura.png"
-              alt="Laura Vianell - Especialista em Amigurumi"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png"
+              alt="Gisele Santos - Especialista em Amigurumi"
               fill
               className="object-cover rounded-3xl shadow-xl relative z-10"
               loading="lazy"
