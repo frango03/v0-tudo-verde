@@ -854,7 +854,7 @@ const LandingPage = () => {
 
                   {/* CTA Button */}
                   <a
-                    href="https://pay.hotmart.com/C102078250Q?checkoutMode=10&bid=1772242912043"
+                    href="https://go.pepperpay.com.br/iazwm"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold py-4 sm:py-5 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 text-center text-sm sm:text-base uppercase tracking-wide animate-pulse-soft"
@@ -978,7 +978,7 @@ const LandingPage = () => {
 
                   {/* CTA Button */}
                   <a
-                    href="https://pay.hotmart.com/I102081196A?checkoutMode=10&bid=1772237455516"
+                    href="https://go.pepperpay.com.br/1fbar"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold py-4 sm:py-5 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 text-center text-base sm:text-lg uppercase tracking-wide animate-pulse-soft"
