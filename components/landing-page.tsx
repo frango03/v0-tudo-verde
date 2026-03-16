@@ -102,7 +102,7 @@ const LandingPage = () => {
           <p className="text-[11px] sm:text-xs md:text-sm font-bold uppercase tracking-wider">
             Inscrições abertas até dia {deadlineDate}
           </p>
-            <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-2 sm:gap-3">
             <div className="flex items-center gap-1.5">
               <div className="bg-white/25 backdrop-blur-sm rounded-xl px-2.5 py-1.5 sm:px-3 sm:py-2 min-w-[44px] sm:min-w-[52px] text-center shadow-lg">
                 <span className="text-lg sm:text-xl md:text-2xl font-bold font-display tabular-nums">
@@ -259,21 +259,19 @@ const LandingPage = () => {
           <div className="flex gap-3 sm:gap-4 mb-6 sm:mb-8 md:mb-10 max-w-xs sm:max-w-sm md:max-w-lg">
             <button
               onClick={() => setActiveTab("flores")}
-              className={`flex-1 py-3 sm:py-3.5 md:py-4 lg:py-5 text-sm sm:text-base lg:text-lg rounded-2xl sm:rounded-3xl font-bold transition-all duration-300 ${
-                activeTab === "flores"
-                  ? "bg-gradient-to-r from-emerald-500 to-green-500 text-white shadow-lg shadow-emerald-200"
-                  : "bg-gray-100 text-gray-500 hover:bg-emerald-50 hover:text-emerald-600"
-              }`}
+              className={`flex-1 py-3 sm:py-3.5 md:py-4 lg:py-5 text-sm sm:text-base lg:text-lg rounded-2xl sm:rounded-3xl font-bold transition-all duration-300 ${activeTab === "flores"
+                ? "bg-gradient-to-r from-emerald-500 to-green-500 text-white shadow-lg shadow-emerald-200"
+                : "bg-gray-100 text-gray-500 hover:bg-emerald-50 hover:text-emerald-600"
+                }`}
             >
               {"🌸"} Flores
             </button>
             <button
               onClick={() => setActiveTab("suculentas")}
-              className={`flex-1 py-3 sm:py-3.5 md:py-4 lg:py-5 text-sm sm:text-base lg:text-lg rounded-2xl sm:rounded-3xl font-bold transition-all duration-300 ${
-                activeTab === "suculentas"
-                  ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg shadow-teal-200"
-                  : "bg-gray-100 text-gray-500 hover:bg-teal-50 hover:text-teal-600"
-              }`}
+              className={`flex-1 py-3 sm:py-3.5 md:py-4 lg:py-5 text-sm sm:text-base lg:text-lg rounded-2xl sm:rounded-3xl font-bold transition-all duration-300 ${activeTab === "suculentas"
+                ? "bg-gradient-to-r from-teal-500 to-emerald-500 text-white shadow-lg shadow-teal-200"
+                : "bg-gray-100 text-gray-500 hover:bg-teal-50 hover:text-teal-600"
+                }`}
             >
               {"🌵"} Suculentas
             </button>
@@ -283,39 +281,39 @@ const LandingPage = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
             {activeTab === "flores"
               ? flores.map((image, i) => (
-                  <div
-                    key={i}
-                    onClick={() => setLightboxImage(image)}
-                    className="aspect-square bg-gradient-to-br from-emerald-50 to-green-50 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-[1.05] cursor-pointer border border-emerald-100 hover:border-emerald-300 group"
-                    style={{ animationDelay: `${i * 0.1}s` }}
-                  >
-                    <Image
-                      src={image || "/placeholder.svg"}
-                      alt={`Flor em Amigurumi ${i + 1}`}
-                      width={300}
-                      height={300}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                  </div>
-                ))
+                <div
+                  key={i}
+                  onClick={() => setLightboxImage(image)}
+                  className="aspect-square bg-gradient-to-br from-emerald-50 to-green-50 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-[1.05] cursor-pointer border border-emerald-100 hover:border-emerald-300 group"
+                  style={{ animationDelay: `${i * 0.1}s` }}
+                >
+                  <Image
+                    src={image || "/placeholder.svg"}
+                    alt={`Flor em Amigurumi ${i + 1}`}
+                    width={300}
+                    height={300}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                </div>
+              ))
               : suculentas.map((image, i) => (
-                  <div
-                    key={i}
-                    onClick={() => setLightboxImage(image)}
-                    className="aspect-square bg-gradient-to-br from-teal-50 to-emerald-50 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-[1.05] cursor-pointer border border-teal-100 hover:border-teal-300 group"
-                    style={{ animationDelay: `${i * 0.1}s` }}
-                  >
-                    <Image
-                      src={image || "/placeholder.svg"}
-                      alt={`Suculenta em Amigurumi ${i + 1}`}
-                      width={300}
-                      height={300}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      loading="lazy"
-                    />
-                  </div>
-                ))}
+                <div
+                  key={i}
+                  onClick={() => setLightboxImage(image)}
+                  className="aspect-square bg-gradient-to-br from-teal-50 to-emerald-50 rounded-3xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:scale-[1.05] cursor-pointer border border-teal-100 hover:border-teal-300 group"
+                  style={{ animationDelay: `${i * 0.1}s` }}
+                >
+                  <Image
+                    src={image || "/placeholder.svg"}
+                    alt={`Suculenta em Amigurumi ${i + 1}`}
+                    width={300}
+                    height={300}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    loading="lazy"
+                  />
+                </div>
+              ))}
           </div>
         </div>
       </div>
@@ -366,7 +364,7 @@ const LandingPage = () => {
         <div className="max-w-sm sm:max-w-md md:max-w-3xl lg:max-w-5xl mx-auto">
           <div className="text-center mb-8 sm:mb-10 md:mb-14 lg:mb-16">
             <div className="bg-gradient-to-r from-amber-100 to-yellow-100 rounded-full px-4 sm:px-5 py-1.5 sm:py-2 inline-flex items-center gap-2 sm:gap-2.5 mb-4 sm:mb-5 text-[11px] sm:text-xs md:text-sm text-amber-700 font-semibold mx-auto shadow-sm">
-            {"🎁"} Bônus Exclusivos
+              {"🎁"} Bônus Exclusivos
             </div>
 
             <h2 className="text-gray-900 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 md:mb-5 font-display text-balance">
@@ -445,15 +443,15 @@ const LandingPage = () => {
                   <div className="bg-white/20 backdrop-blur-sm rounded-full px-3 sm:px-4 py-1.5 inline-flex items-center gap-2 mb-4 sm:mb-5 text-xs sm:text-sm font-medium">
                     <span className="text-lg">{"🌱"}</span> Sua mentora digital de amigurumi
                   </div>
-                  
+
                   <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4 font-display">
                     Você nunca vai criar sozinha.
                   </h3>
-                  
+
                   <p className="text-white/90 text-sm sm:text-base md:text-lg mb-5 sm:mb-6 leading-relaxed">
                     Com a <span className="font-bold">Assistente Amigurumi</span>, você tem uma mentora digital disponível 24 horas para te guiar em cada ponto:
                   </p>
-                  
+
                   <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
                     <li className="flex items-start gap-3">
                       <span className="text-lg sm:text-xl mt-0.5">{"🌿"}</span>
@@ -472,12 +470,12 @@ const LandingPage = () => {
                       <span className="text-sm sm:text-base text-white/95">Te motiva e inspira quando você trava nas ideias</span>
                     </li>
                   </ul>
-                  
+
                   <p className="text-white/70 text-xs sm:text-sm italic border-l-2 border-white/30 pl-4">
                     "Suas plantas de crochê vão florescer. Se precisar de ajuda, chama a IA!" - Universo IA
                   </p>
                 </div>
-                
+
                 {/* Right - Video */}
                 <div className="w-full lg:w-1/2">
                   <p className="text-white/90 text-center text-sm sm:text-base font-medium mb-4">Veja ela em ação:</p>
@@ -752,11 +750,10 @@ const LandingPage = () => {
             ].map((item, i) => (
               <div
                 key={i}
-                className={`bg-gradient-to-r ${
-                  item.color === "amber" ? "from-amber-50 to-yellow-50 border-amber-200" :
+                className={`bg-gradient-to-r ${item.color === "amber" ? "from-amber-50 to-yellow-50 border-amber-200" :
                   item.color === "emerald" ? "from-emerald-50 to-green-50 border-emerald-200" :
-                  "from-teal-50 to-emerald-50 border-teal-200"
-                } border rounded-2xl sm:rounded-3xl p-4 sm:p-5 flex items-center gap-4 sm:gap-5 hover:shadow-lg transition-all duration-300 group`}
+                    "from-teal-50 to-emerald-50 border-teal-200"
+                  } border rounded-2xl sm:rounded-3xl p-4 sm:p-5 flex items-center gap-4 sm:gap-5 hover:shadow-lg transition-all duration-300 group`}
               >
                 <div className="text-4xl sm:text-5xl group-hover:scale-110 transition-transform duration-300">{item.icon}</div>
                 <div>
@@ -825,7 +822,7 @@ const LandingPage = () => {
                 <div className="p-5 sm:p-6">
                   {/* Product Image */}
                   <div className="flex justify-center mb-4">
-                    
+
                   </div>
 
                   {/* Price */}
@@ -847,7 +844,7 @@ const LandingPage = () => {
                   {/* Divider */}
                   <div className="border-t border-dashed border-gray-200 my-4" />
 
-                  
+
                   <p className="text-emerald-600 text-xs sm:text-sm text-center font-semibold mb-4">
                     {'Aceitamos Cartão e Pix'}
                   </p>
@@ -859,7 +856,7 @@ const LandingPage = () => {
                     rel="noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold py-4 sm:py-5 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 text-center text-sm sm:text-base uppercase tracking-wide animate-pulse-soft"
                   >
-                    {'QUERO MEU EBOOK!'}
+                    {'QUERO ACESSO AGORA!'}
                   </a>
 
                   {/* Features */}
@@ -971,7 +968,7 @@ const LandingPage = () => {
                   {/* Divider */}
                   <div className="border-t border-dashed border-gray-200 my-4" />
 
-                  
+
                   <p className="text-emerald-600 text-sm sm:text-base text-center font-semibold mb-5">
                     {'Aceitamos Cartão e Pix'}
                   </p>
@@ -983,7 +980,7 @@ const LandingPage = () => {
                     rel="noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 hover:from-emerald-700 hover:via-green-700 hover:to-teal-700 text-white font-bold py-4 sm:py-5 rounded-2xl shadow-xl hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 text-center text-base sm:text-lg uppercase tracking-wide animate-pulse-soft"
                   >
-                    {'QUERO MEU EBOOK!'}
+                    {'QUERO ACESSO COMPLETO!'}
                   </a>
 
                   {/* Features */}
