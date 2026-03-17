@@ -60,28 +60,28 @@ const LandingPage = () => {
   }, [])
 
   const flores = [
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2Fanturio.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2Ftulipas.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2Fgirassol.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2Fgerbera.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2Frosa-deserto.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F5.webp&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F8.webp&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F2.webp&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F10.webp&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F9.webp&w=640&q=75",
+    "/images/flowers/anturio.jpg",
+    "/images/flowers/tulipas.jpg",
+    "/images/flowers/girassol.jpg",
+    "/images/flowers/gerbera.jpg",
+    "/images/flowers/rosa-deserto.jpg",
+    "/images/flowers/5.webp",
+    "/images/flowers/8.webp",
+    "/images/flowers/2.webp",
+    "/images/flowers/10.webp",
+    "/images/flowers/9.webp",
   ]
   const suculentas = [
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2Fnew-1.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2Fnew-2.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2Fnew-3.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2Fnew-4.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2Fnew-5.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2Fnew-6.jpg&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F14.webp&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F16.webp&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F15.webp&w=640&q=75",
-    "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F13.webp&w=640&q=75",
+    "/images/succulents/new-1.jpg",
+    "/images/succulents/new-2.jpg",
+    "/images/succulents/new-3.jpg",
+    "/images/succulents/new-4.jpg",
+    "/images/succulents/new-5.jpg",
+    "/images/succulents/new-6.jpg",
+    "/images/succulents/14.webp",
+    "/images/succulents/16.webp",
+    "/images/succulents/15.webp",
+    "/images/succulents/13.webp",
   ]
 
   const scrollToPricing = () => {
@@ -157,7 +157,7 @@ const LandingPage = () => {
       <div className="relative bg-gradient-to-b from-emerald-100/70 via-green-50/50 to-white yarn-texture">
         {/* Hero Image Area */}
         <div className="relative h-52 sm:h-60 md:h-80 lg:h-[28rem] overflow-hidden rounded-b-[2.5rem] sm:rounded-b-[3rem] md:rounded-b-[4rem]">
-          <Image src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fhero-banner.png&w=1920&q=75" alt="Imagem Principal" fill priority className="object-cover" sizes="100vw" />
+          <Image src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png" alt="Imagem Principal" fill priority className="object-cover" sizes="100vw" />
           <div className="absolute inset-0 bg-gradient-to-t from-white/40 via-transparent to-emerald-900/15" />
         </div>
 
@@ -165,7 +165,7 @@ const LandingPage = () => {
         <div className="bg-white/95 backdrop-blur-sm mx-3 sm:mx-4 md:mx-auto md:max-w-xl lg:max-w-2xl -mt-14 sm:-mt-16 md:-mt-24 lg:-mt-28 rounded-3xl sm:rounded-[2rem] shadow-2xl p-5 sm:p-7 md:p-9 lg:p-12 relative z-10 border border-emerald-200/50">
           <div className="flex items-center justify-center mb-3 sm:mb-4 md:mb-5 lg:mb-6 mt-1 sm:mt-2">
             <Image
-              src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fhero-banner-es.png&w=1200&q=75"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-xDZsuq8mfK2WLB88RnKpVWFf2ieHfC.png"
               alt="Universo Amigurumi - Ebook Digital com plantinhas e bonus"
               width={600}
               height={400}
@@ -200,22 +200,22 @@ const LandingPage = () => {
       <div className="bg-gradient-to-r from-emerald-50/50 via-white to-green-50/50 py-8 sm:py-10 overflow-hidden">
         <div className="flex animate-scroll-x gap-5 sm:gap-7">
           {[
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F11.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F17.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F3.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F18.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F4.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F19.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F6.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F20.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F7.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F21.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F11.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F17.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F3.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F18.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F4.webp&w=384&q=75",
-            "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F19.webp&w=384&q=75",
+            "/images/flowers/11.webp",
+            "/images/succulents/17.webp",
+            "/images/flowers/3.webp",
+            "/images/succulents/18.webp",
+            "/images/flowers/4.webp",
+            "/images/succulents/19.webp",
+            "/images/flowers/6.webp",
+            "/images/succulents/20.webp",
+            "/images/flowers/7.webp",
+            "/images/succulents/21.webp",
+            "/images/flowers/11.webp",
+            "/images/succulents/17.webp",
+            "/images/flowers/3.webp",
+            "/images/succulents/18.webp",
+            "/images/flowers/4.webp",
+            "/images/succulents/19.webp",
           ].map((src, i) => (
             <div
               key={i}
@@ -257,7 +257,7 @@ const LandingPage = () => {
                 : "bg-gray-100 text-gray-500 hover:bg-emerald-50 hover:text-emerald-600"
                 }`}
             >
-              Flores
+              {"🌸"} Flores
             </button>
             <button
               onClick={() => setActiveTab("suculentas")}
@@ -329,7 +329,7 @@ const LandingPage = () => {
           <div className="space-y-4 sm:space-y-5 md:space-y-0 md:grid md:grid-cols-2 md:gap-6 lg:gap-8 mb-6 sm:mb-8">
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-emerald-100 hover:border-emerald-200 group">
               <Image
-                src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Ftestimonials%2F1.webp&w=640&q=75"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp"
                 alt="Depoimento Maria de Lurdes"
                 width={600}
                 height={800}
@@ -340,7 +340,7 @@ const LandingPage = () => {
 
             <div className="bg-white rounded-3xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 border border-emerald-100 hover:border-emerald-200 group">
               <Image
-                src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Ftestimonials%2F2.webp&w=640&q=75"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp"
                 alt="Depoimento Gabriela Fonseca"
                 width={600}
                 height={800}
@@ -373,7 +373,7 @@ const LandingPage = () => {
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-[1.03] hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-emerald-50/50 to-white">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fbonus-anime-series.png&w=640&q=75"
+                  src="/images/bonus-anime-series.png"
                   alt="Bônus Anime e Séries - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -392,7 +392,7 @@ const LandingPage = () => {
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-[1.03] hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-green-50/50 to-white">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fbonus-pack-terror.png&w=640&q=75"
+                  src="/images/bonus-pack-terror.png"
                   alt="Bônus Pack Terror Halloween - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -411,7 +411,7 @@ const LandingPage = () => {
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-[1.03] hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-teal-50/50 to-white">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fbonus-amigos-bosque.png&w=640&q=75"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-1f6Mc1p1CAiHa1ByI272m6kHvI9jir.png"
                   alt="Bônus Amigos da Floresta - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -476,10 +476,10 @@ const LandingPage = () => {
                     <video
                       className="w-full aspect-[9/16] object-cover"
                       controls
-                      poster="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fvideo-poster.webp&w=640&q=75"
+                      poster="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/311111-YTXM6zazCuud5Y1qZEaTHpixn2dr0v.webp"
                       playsInline
                     >
-                      <source src="https://www.universoamigurumi.shop/videos/universo-amigurumi-ia.mp4" type="video/mp4" />
+                      <source src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Universo%20Amigurumi%20IA%20VIDEO-kdztAWV7bu8yCGLVySboYIcydvBx3d.mp4" type="video/mp4" />
                       Seu navegador não suporta vídeo.
                     </video>
                   </div>
@@ -588,10 +588,10 @@ const LandingPage = () => {
           {/* Bento Grid Layout */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
             {/* Large featured */}
-            <div className="col-span-2 row-span-2 relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Forquidea-amigurumi.jpg&w=640&q=75")}>
+            <div className="col-span-2 row-span-2 relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/orquidea-amigurumi.jpg")}>
               <div className="aspect-square">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Forquidea-amigurumi.jpg&w=640&q=75"
+                  src="/images/plants/orquidea-amigurumi.jpg"
                   alt="Orquídea amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -605,10 +605,10 @@ const LandingPage = () => {
             </div>
 
             {/* Top right */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Fcactus-amigurumi.jpg&w=384&q=75")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/cactus-amigurumi.jpg")}>
               <div className="aspect-square">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Fcactus-amigurumi.jpg&w=384&q=75"
+                  src="/images/plants/cactus-amigurumi.jpg"
                   alt="Cacto amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -621,10 +621,10 @@ const LandingPage = () => {
             </div>
 
             {/* Top right 2 */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Flavanda-amigurumi.jpg&w=384&q=75")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/lavanda-amigurumi.jpg")}>
               <div className="aspect-square">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Flavanda-amigurumi.jpg&w=384&q=75"
+                  src="/images/plants/lavanda-amigurumi.jpg"
                   alt="Lavanda amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -637,10 +637,10 @@ const LandingPage = () => {
             </div>
 
             {/* Bottom right */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Fmargarita-amigurumi.jpg&w=384&q=75")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/margarita-amigurumi.jpg")}>
               <div className="aspect-square">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fplants%2Fmargarita-amigurumi.jpg&w=384&q=75"
+                  src="/images/plants/margarita-amigurumi.jpg"
                   alt="Margarida amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -653,10 +653,10 @@ const LandingPage = () => {
             </div>
 
             {/* Bottom right 2 */}
-            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F11.webp&w=384&q=75")}>
+            <div className="relative rounded-3xl overflow-hidden shadow-xl border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/flowers/11.webp")}>
               <div className="aspect-square">
                 <Image
-                  src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F11.webp&w=384&q=75"
+                  src="/images/flowers/11.webp"
                   alt="Flor amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
@@ -672,10 +672,10 @@ const LandingPage = () => {
           {/* Second row - 4 equal items */}
           <div className="grid grid-cols-4 gap-4 sm:gap-5 md:gap-6 mt-4 sm:mt-5 md:mt-6">
             {[
-              { src: "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F12.webp&w=256&q=75", name: "Suculenta Mini" },
-              { src: "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F3.webp&w=256&q=75", name: "Rosa Encantada" },
-              { src: "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F21.webp&w=256&q=75", name: "Suculenta Verde" },
-              { src: "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F7.webp&w=256&q=75", name: "Tulipa" },
+              { src: "/images/succulents/12.webp", name: "Suculenta Mini" },
+              { src: "/images/flowers/3.webp", name: "Rosa Encantada" },
+              { src: "/images/succulents/21.webp", name: "Suculenta Verde" },
+              { src: "/images/flowers/7.webp", name: "Tulipa" },
             ].map((item, i) => (
               <div key={i} className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage(item.src)}>
                 <div className="aspect-square">
@@ -727,7 +727,7 @@ const LandingPage = () => {
 
             <div className="mt-4 sm:mt-6 mb-6 sm:mb-8">
               <Image
-                src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Ftestimonials%2F6455.webp&w=640&q=75"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/6455-l9c7zNUwKropQo7d7Yy3uMGolDBbxv.webp"
                 alt="Depoimentos de clientes satisfeitas"
                 width={480}
                 height={720}
@@ -764,12 +764,12 @@ const LandingPage = () => {
         <div className="max-w-sm sm:max-w-md md:max-w-3xl lg:max-w-6xl mx-auto">
           <div className="grid grid-cols-3 md:grid-cols-6 gap-3 sm:gap-4 md:gap-5">
             {[
-              "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F20.webp&w=384&q=75",
-              "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F6.webp&w=384&q=75",
-              "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F19.webp&w=384&q=75",
-              "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F4.webp&w=384&q=75",
-              "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsucculents%2F18.webp&w=384&q=75",
-              "https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fflowers%2F3.webp&w=384&q=75",
+              "/images/succulents/20.webp",
+              "/images/flowers/6.webp",
+              "/images/succulents/19.webp",
+              "/images/flowers/4.webp",
+              "/images/succulents/18.webp",
+              "/images/flowers/3.webp",
             ].map((src, i) => (
               <div
                 key={i}
@@ -873,7 +873,7 @@ const LandingPage = () => {
                   {/* Payment Badges */}
                   <div className="mt-6 flex justify-center">
                     <img
-                      src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fhero-banner-es.png&w=640&q=75"
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/eKtt32b-NecAPotGti5odviqUU6EILiNwEHQZ1.webp"
                       alt="VISA, MasterCard, PayPal, Pix - Compra Segura"
                       className="h-9 sm:h-10 object-contain opacity-70"
                     />
@@ -934,7 +934,7 @@ const LandingPage = () => {
                   {/* Product Image */}
                   <div className="flex justify-center mb-4">
                     <Image
-                      src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fhero-banner-es.png&w=640&q=75"
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png"
                       alt="Ebook Plantas e Flores Amigurumi - Plano Completo"
                       width={280}
                       height={200}
@@ -1000,7 +1000,7 @@ const LandingPage = () => {
                   {/* Payment Badges */}
                   <div className="mt-6 flex justify-center">
                     <img
-                      src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fgarantia.webp&w=384&q=75"
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/eKtt32b-ajUin42bpin3dKvNrE3CDzpZUQkpeF.webp"
                       alt="VISA, MasterCard, PayPal, Pix - Compra Segura"
                       className="h-9 sm:h-10 object-contain opacity-70"
                     />
@@ -1083,8 +1083,8 @@ const LandingPage = () => {
           <div className="relative w-72 lg:w-96 h-80 lg:h-96 mx-auto mb-10">
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-200 to-green-200 rounded-3xl transform rotate-3" />
             <Image
-              src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fexpert-laura.png&w=640&q=75"
-              alt="Gisele Santos - Especialista em Amigurumi"
+              src="/images/expert-laura.png"
+              alt="Laura Vianell - Especialista em Amigurumi"
               fill
               className="object-cover rounded-3xl shadow-xl relative z-10"
               loading="lazy"
@@ -1139,7 +1139,7 @@ const LandingPage = () => {
 
           <div className="flex justify-center mb-4">
             <img
-              src="https://www.universoamigurumi.shop/_next/image?url=%2Fimages%2Fsite-seguro-selos.png&w=384&q=75"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Site_Seguro_Selos-S3lXaYl5gMrQSZhwO8IcbPNqkcljBh.png"
               alt="Site Seguro - Google - Site Blindado - Compra 100% Segura"
               className="object-contain opacity-70 w-auto h-36"
             />
