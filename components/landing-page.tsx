@@ -186,13 +186,6 @@ const LandingPage = () => {
             <span className="font-bold">decorar ambientes</span> e <span className="font-bold">gerar renda</span> com
             crochê.
           </p>
-
-          <button
-            onClick={scrollToPricing}
-            className="w-full md:w-auto md:px-12 lg:px-14 md:mx-auto md:block bg-gradient-to-r from-emerald-600 via-green-600 to-teal-600 text-white font-bold py-3.5 sm:py-4 md:py-5 lg:py-6 text-sm sm:text-base lg:text-lg rounded-2xl sm:rounded-3xl shadow-xl hover:shadow-2xl hover:scale-[1.03] transition-all duration-300 tracking-tight animate-pulse-soft"
-          >
-            QUERO ME INSCREVER NO CURSO
-          </button>
         </div>
 
         {/* Decorative wave */}
