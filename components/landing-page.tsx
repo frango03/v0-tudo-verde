@@ -257,7 +257,7 @@ const LandingPage = () => {
                 : "bg-gray-100 text-gray-500 hover:bg-emerald-50 hover:text-emerald-600"
                 }`}
             >
-              {"���"} Flores
+              Flores
             </button>
             <button
               onClick={() => setActiveTab("suculentas")}
