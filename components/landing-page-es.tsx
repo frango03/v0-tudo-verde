@@ -34,28 +34,28 @@ const LandingPageEs = () => {
   }, [])
 
   const flores = [
-    "/images/flowers/anturio.jpg",
-    "/images/flowers/tulipas.jpg",
-    "/images/flowers/girassol.jpg",
-    "/images/flowers/gerbera.jpg",
-    "/images/flowers/rosa-deserto.jpg",
-    "/images/flowers/5.webp",
-    "/images/flowers/8.webp",
-    "/images/flowers/2.webp",
-    "/images/flowers/10.webp",
-    "/images/flowers/9.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
   ]
   const suculentas = [
-    "/images/succulents/new-1.jpg",
-    "/images/succulents/new-2.jpg",
-    "/images/succulents/new-3.jpg",
-    "/images/succulents/new-4.jpg",
-    "/images/succulents/new-5.jpg",
-    "/images/succulents/new-6.jpg",
-    "/images/succulents/14.webp",
-    "/images/succulents/16.webp",
-    "/images/succulents/15.webp",
-    "/images/succulents/13.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+    "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
   ]
 
   const scrollToPricing = () => {
@@ -129,7 +129,7 @@ const LandingPageEs = () => {
         <div className="bg-white/95 backdrop-blur-sm mx-3 sm:mx-4 md:mx-auto md:max-w-xl lg:max-w-2xl -mt-14 sm:-mt-16 md:-mt-24 lg:-mt-28 rounded-3xl sm:rounded-[2rem] shadow-2xl p-5 sm:p-7 md:p-9 lg:p-12 relative z-10 border border-emerald-200/50">
           <div className="flex items-center justify-center mb-3 sm:mb-4 md:mb-5 lg:mb-6 mt-1 sm:mt-2">
             <Image
-              src="/images/hero-banner-es.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png"
               alt="Universo Amigurumi - Digital Ebook con plantitas y bonos"
               width={600}
               height={400}
@@ -171,22 +171,22 @@ const LandingPageEs = () => {
       <div className="bg-white py-6 sm:py-8 overflow-hidden">
         <div className="flex animate-scroll-x gap-4 sm:gap-6">
           {[
-            "/images/flowers/11.webp",
-            "/images/succulents/17.webp",
-            "/images/flowers/3.webp",
-            "/images/succulents/18.webp",
-            "/images/flowers/4.webp",
-            "/images/succulents/19.webp",
-            "/images/flowers/6.webp",
-            "/images/succulents/20.webp",
-            "/images/flowers/7.webp",
-            "/images/succulents/21.webp",
-            "/images/flowers/11.webp",
-            "/images/succulents/17.webp",
-            "/images/flowers/3.webp",
-            "/images/succulents/18.webp",
-            "/images/flowers/4.webp",
-            "/images/succulents/19.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+            "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
           ].map((src, i) => (
             <div
               key={i}
@@ -349,7 +349,7 @@ const LandingPageEs = () => {
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border-2 border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-gray-50 to-white">
                 <Image
-                  src="/images/bonus-anime-series.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png"
                   alt="Bonus Anime y Series - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -368,7 +368,7 @@ const LandingPageEs = () => {
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border-2 border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-gray-50 to-white">
                 <Image
-                  src="/images/bonus-pack-terror.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png"
                   alt="Bonus Pack Terror Halloween - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -387,7 +387,7 @@ const LandingPageEs = () => {
             <div className="bg-white rounded-2xl sm:rounded-3xl shadow-lg border-2 border-gray-100 overflow-hidden hover:shadow-2xl hover:scale-105 hover:border-emerald-200 transition-all duration-300 group">
               <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-gray-50 to-white">
                 <Image
-                  src="/images/bonus-amigos-bosque.png"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png"
                   alt="Bonus Amigos del Bosque - Pack Amigurumi"
                   fill
                   className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-500"
@@ -432,10 +432,10 @@ const LandingPageEs = () => {
           {/* Bento Grid Layout */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5">
             {/* Large featured */}
-            <div className="col-span-2 row-span-2 relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/orquidea-amigurumi.jpg")}>
+            <div className="col-span-2 row-span-2 relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/orquidea-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png"
                   alt="Orquidea amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -449,10 +449,10 @@ const LandingPageEs = () => {
             </div>
 
             {/* Top right */}
-            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/cactus-amigurumi.jpg")}>
+            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/cactus-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png"
                   alt="Cactus amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -465,10 +465,10 @@ const LandingPageEs = () => {
             </div>
 
             {/* Top right 2 */}
-            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/lavanda-amigurumi.jpg")}>
+            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/lavanda-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp"
                   alt="Lavanda amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -481,10 +481,10 @@ const LandingPageEs = () => {
             </div>
 
             {/* Bottom right */}
-            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/plants/margarita-amigurumi.jpg")}>
+            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/plants/margarita-amigurumi.jpg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp"
                   alt="Margarita amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -497,10 +497,10 @@ const LandingPageEs = () => {
             </div>
 
             {/* Bottom right 2 */}
-            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("/images/flowers/11.webp")}>
+            <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage("https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png")}>
               <div className="aspect-square">
                 <Image
-                  src="/images/flowers/11.webp"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png"
                   alt="Flor amigurumi"
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-500"
@@ -516,10 +516,10 @@ const LandingPageEs = () => {
           {/* Second row - 4 equal items */}
           <div className="grid grid-cols-4 gap-3 sm:gap-4 md:gap-5 mt-3 sm:mt-4 md:mt-5">
             {[
-              { src: "/images/succulents/12.webp", name: "Suculenta Mini" },
-              { src: "/images/flowers/3.webp", name: "Rosa Encantada" },
-              { src: "/images/succulents/21.webp", name: "Suculenta Verde" },
-              { src: "/images/flowers/7.webp", name: "Tulipan" },
+              { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png", name: "Suculenta Mini" },
+              { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png", name: "Rosa Encantada" },
+              { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp", name: "Suculenta Verde" },
+              { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp", name: "Tulipan" },
             ].map((item, i) => (
               <div key={i} className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-md border-2 border-emerald-100 group cursor-pointer" onClick={() => setLightboxImage(item.src)}>
                 <div className="aspect-square">
@@ -609,12 +609,12 @@ const LandingPageEs = () => {
         <div className="max-w-sm sm:max-w-md md:max-w-3xl lg:max-w-5xl mx-auto">
           <div className="grid grid-cols-3 md:grid-cols-6 gap-2 sm:gap-3 md:gap-4">
             {[
-              "/images/succulents/20.webp",
-              "/images/flowers/6.webp",
-              "/images/succulents/19.webp",
-              "/images/flowers/4.webp",
-              "/images/succulents/18.webp",
-              "/images/flowers/3.webp",
+              "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+              "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
+              "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1-2g5JqaYnJWtBfTKxn4ZCcNYjdqOxWO.webp",
+              "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-uip5X5QBTxS4LW7bbqj4TZYDaigoqn.webp",
+              "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png",
+              "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/d55ee38d-aed8-4baf-b7fc-b415a62f22fb-gEiKXak0IHX9mpwagzZ5XsA6F0olQC.png",
             ].map((src, i) => (
               <div
                 key={i}
@@ -784,7 +784,7 @@ const LandingPageEs = () => {
                   {/* Product Image */}
                   <div className="flex justify-center mb-4">
                     <Image
-                      src="/images/hero-banner-es.png"
+                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png"
                       alt="Ebook Plantas y Flores Amigurumi - Plan Completo"
                       width={280}
                       height={200}
@@ -936,7 +936,7 @@ const LandingPageEs = () => {
           <div className="relative w-64 lg:w-80 h-80 lg:h-96 mx-auto mb-8">
             <div className="absolute inset-0 bg-gradient-to-br from-emerald-200 to-green-200 rounded-3xl transform rotate-3" />
             <Image
-              src="/images/expert-laura.png"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/49b3ae29-2393-4e63-b7e9-1038dea5d345-wm-dZrQFasP6g34iyEEXmuG6cJvEM9oxp.png"
               alt="Laura Vianell - Experta en Amigurumi"
               fill
               className="object-cover rounded-3xl shadow-xl relative z-10"
