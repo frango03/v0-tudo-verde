@@ -162,21 +162,6 @@ export default function PricingSection({ viewers }: PricingSectionProps) {
                 <p className="text-sm text-[#16a34a] font-semibold mb-5 text-center">
                   Você economiza R$ {plan.savings}
                 </p>
-                <div className="p-4 rounded-xl bg-white border border-[#16a34a]/20 shadow-sm w-full">
-                  <div className="flex items-center justify-between w-full gap-3">
-                    <img 
-                      src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/pix-logo-png_seeklogo-392002-3GUKyVSqqCv99NUlcfaMbC9iqDtqBv.png" 
-                      alt="PIX" 
-                      className="h-16 w-auto flex-shrink-0"
-                    />
-                    <div className="flex flex-col items-end text-right">
-                      <span className="text-xs text-[#16a34a] font-medium">Pague com PIX e ganhe 10% OFF</span>
-                      <span className="text-2xl font-bold text-[#16a34a]">
-                        R$ {(parseFloat(plan.price.replace(',', '.')) * 0.9).toFixed(2).replace('.', ',')}
-                      </span>
-                    </div>
-                  </div>
-                </div>
               </div>
             </CardHeader>
 
