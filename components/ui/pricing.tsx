@@ -31,8 +31,8 @@ const plans = [
     description:
       "A melhor opção para quem quer levar 4 coleções completas pelo preço de 2",
     price: "29,90",
-    oldPrice: "233,00",
-    discount: "80%",
+    oldPrice: "97,00",
+    discount: "69%",
     savings: "186,00",
     buttonText: "Quero o Mega Pack",
     popular: true,
