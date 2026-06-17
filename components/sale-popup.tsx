@@ -9,7 +9,7 @@ const buyers = [
   { message: "Fernanda de Curitiba acabou de pegar a Colecao Completa por R$47,00" },
   { message: "Larissa de Porto Alegre correu e garantiu a colecao com 61% OFF" },
   { message: "Amanda de Salvador nao perdeu tempo e levou a Colecao Completa por R$47,00" },
-  { message: "Renata de Recife acabou de comprar por R$27,00 com desconto especial" },
+  { message: "Renata de Recife acabou de comprar por R$17,90 com desconto especial" },
   { message: "Beatriz de Brasilia garantiu a Colecao Completa por R$47,00 agora!" },
   { message: "Carolina de Fortaleza aproveitou e pagou so R$27,00" },
   { message: "Patricia de Campinas acabou de liberar a Colecao Completa por R$47,00" },
