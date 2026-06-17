@@ -10,10 +10,10 @@ const plans = [
     name: "Coleção",
     description:
       "Perfeito para quem quer começar com a coleção principal de pets amigurumi por raça",
-    price: "27,00",
+    price: "17,90",
     oldPrice: "69,90",
-    discount: "61%",
-    savings: "42,90",
+    discount: "74%",
+    savings: "52,00",
     buttonText: "Quero a coleção",
     href: "https://go.pepperpay.com.br/iazwm",
     image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PACK-39-br-drfK796myXaMuDT6Q2fcKuL26A2o0d.webp",
