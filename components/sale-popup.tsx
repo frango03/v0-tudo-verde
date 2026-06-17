@@ -3,21 +3,21 @@
 import { useState, useEffect, useRef } from "react"
 
 const buyers = [
-  { message: "Mariana de Sao Paulo acabou de garantir a colecao com 61% OFF por R$27,00" },
-  { message: "Juliana do Rio de Janeiro liberou a Colecao Completa por apenas R$47,00 agora!" },
-  { message: "Camila de Belo Horizonte aproveitou o desconto e pagou so R$27,00" },
+  { message: "Mariana de Sao Paulo acabou de garantir a colecao com 61% OFF por R$17,90" },
+  { message: "Juliana do Rio de Janeiro liberou a Colecao Completa por apenas R$29,90 agora!" },
+  { message: "Camila de Belo Horizonte aproveitou o desconto e pagou so R$17,90" },
   { message: "Fernanda de Curitiba acabou de pegar a Colecao Completa por R$47,00" },
   { message: "Larissa de Porto Alegre correu e garantiu a colecao com 61% OFF" },
   { message: "Amanda de Salvador nao perdeu tempo e levou a Colecao Completa por R$47,00" },
-  { message: "Renata de Recife acabou de comprar por R$27,00 com desconto especial" },
+  { message: "Renata de Recife acabou de comprar por R$17,90 com desconto especial" },
   { message: "Beatriz de Brasilia garantiu a Colecao Completa por R$47,00 agora!" },
-  { message: "Carolina de Fortaleza aproveitou e pagou so R$27,00" },
+  { message: "Carolina de Fortaleza aproveitou e pagou so R$17,90" },
   { message: "Patricia de Campinas acabou de liberar a Colecao Completa por R$47,00" },
-  { message: "Gabriela de Goiania viu a oferta e correu pra garantir por R$27,00" },
+  { message: "Gabriela de Goiania viu a oferta e correu pra garantir por R$17,90" },
   { message: "Daniela de Florianopolis garantiu a Colecao Completa por R$47,00" },
-  { message: "Isabela de Manaus aproveitou o desconto e comprou por R$27,00" },
+  { message: "Isabela de Manaus aproveitou o desconto e comprou por R$17,90" },
   { message: "Vanessa de Santos nao pensou duas vezes e levou a colecao por R$47,00!" },
-  { message: "Luciana de Vitoria acabou de garantir a Colecao Completa por R$27,00" },
+  { message: "Luciana de Vitoria acabou de garantir a Colecao Completa por R$17,90" },
 ]
 
 export function SalePopup() {
