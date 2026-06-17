@@ -33,7 +33,7 @@ const plans = [
     price: "29,90",
     oldPrice: "97,00",
     discount: "69%",
-    savings: "186,00",
+    savings: "67,10",
     buttonText: "Quero o Mega Pack",
     popular: true,
     href: "https://go.pepperpay.com.br/1fbar",
