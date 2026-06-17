@@ -37,7 +37,7 @@ export function FinalCta({ viewers }: FinalCtaProps) {
           <div className="flex items-center justify-between mb-4">
             <span className="text-[13px] text-[#6b7280] tracking-[1px] uppercase">OFERTA EXCLUSIVA</span>
             <span className="text-xs font-bold px-3 py-1.5 rounded-full bg-[#fff7ed] text-[#ea580c] border border-[#fed7aa]">
-              43% OFF
+              61% OFF
             </span>
           </div>
           <div className="text-base text-[#9ca3af] line-through text-center">
@@ -45,10 +45,10 @@ export function FinalCta({ viewers }: FinalCtaProps) {
           </div>
           <div className="flex items-baseline justify-center gap-1 my-2">
             <span className="text-xl text-[#111827]">R$</span>
-            <span className="text-[52px] font-extrabold text-[#111827]">39,90</span>
+            <span className="text-[52px] font-extrabold text-[#111827]">27,00</span>
           </div>
           <p className="text-sm text-[#16a34a] font-semibold mb-5 text-center">
-            Você economiza R$ 30,00
+            Você economiza R$ 42,90
           </p>
         </div>
         <p className="text-xs text-[#4A4A4A] italic mb-5">
