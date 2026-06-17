@@ -5,7 +5,7 @@ import { useState, useEffect, useRef } from "react"
 const buyers = [
   { message: "Mariana de Sao Paulo acabou de garantir a colecao com 61% OFF por R$17,90" },
   { message: "Juliana do Rio de Janeiro liberou a Colecao Completa por apenas R$47,00 agora!" },
-  { message: "Camila de Belo Horizonte aproveitou o desconto e pagou so R$27,00" },
+  { message: "Camila de Belo Horizonte aproveitou o desconto e pagou so R$17,90" },
   { message: "Fernanda de Curitiba acabou de pegar a Colecao Completa por R$47,00" },
   { message: "Larissa de Porto Alegre correu e garantiu a colecao com 61% OFF" },
   { message: "Amanda de Salvador nao perdeu tempo e levou a Colecao Completa por R$47,00" },
