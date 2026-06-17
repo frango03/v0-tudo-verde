@@ -45,7 +45,7 @@ export function FinalCta({ viewers }: FinalCtaProps) {
           </div>
           <div className="flex items-baseline justify-center gap-1 my-2">
             <span className="text-xl text-[#111827]">R$</span>
-            <span className="text-[52px] font-extrabold text-[#111827]">27,00</span>
+            <span className="text-[52px] font-extrabold text-[#111827]">17,90</span>
           </div>
           <p className="text-sm text-[#16a34a] font-semibold mb-5 text-center">
             Você economiza R$ 42,90
