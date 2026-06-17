@@ -11,7 +11,7 @@ const plans = [
     description:
       "Perfeito para quem quer começar com a coleção principal de pets amigurumi por raça",
     price: "17,90",
-    oldPrice: "69,90",
+    oldPrice: "R$ 69,90",
     discount: "74%",
     savings: "52,00",
     buttonText: "Quero a coleção",
