@@ -30,7 +30,7 @@ const plans = [
     name: "Mega Pack",
     description:
       "A melhor opção para quem quer levar 4 coleções completas pelo preço de 2",
-    price: "47,00",
+    price: "29,90",
     oldPrice: "233,00",
     discount: "80%",
     savings: "186,00",
